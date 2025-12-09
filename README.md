@@ -18,7 +18,7 @@ Custom embedded controller for Kanthal Super (Si-Mo) heating elements, designed 
 
 ## Documentation
 - 📄 [Technical Overview](docs/Technical_Overview.md)
-- 🛡️ [Safety Architecture]([Documentations/Safety_Architecture.md)](https://github.com/sinfu98android/Kanthal-Super-High-Temperature-Controller/blob/aea99e4c84bd27a27627e6e728dc2e6159ed56b1/Documentation%20/Safety%20Architecture.md)
+- 🛡️ [Safety Architecture](https://github.com/sinfu98android/Kanthal-Super-High-Temperature-Controller/blob/aea99e4c84bd27a27627e6e728dc2e6159ed56b1/Documentation%20/Safety%20Architecture.md)
 - 🔁 [State Machine](docs/State_Machine.md)
 - 📊 [Long-Term Reliability](docs/Long_Term_Reliability.md)
 
