@@ -1,6 +1,7 @@
-# Kanthal-Super-High-Temperature-Controller
+# Kanthal-Super-High-Temperature-Controller (131 KW)
 
 Custom embedded controller for Kanthal Super (Si-Mo) heating elements, designed for safety-critical industrial furnaces.
+The controller is designed for high-power industrial furnaces and has been validated on a 131 kW Kanthal Super heating system.
 
 ## Impact Overview
 - 3+ years continuous industrial operation with zero uncontrolled failures<br>
@@ -16,6 +17,11 @@ Custom embedded controller for Kanthal Super (Si-Mo) heating elements, designed 
 - Supervised cold-start and recovery state machine<br>
 - Hardware watchdog and analog fault thresholds<br>
 
+**Spec**
+- Rated Heater Power: 131 kW<br>
+- Typical Line Current: 150–200 A (3-phase equivalent)<br>
+- Load Type: Kanthal Super (MoSi2)<br>
+- Operation: Continuous industrial duty<br>
 ## Documentation
 - 📄 [Technical Overview](docs/Technical_Overview.md)
 - 🛡️ [Safety Architecture](https://github.com/sinfu98android/Kanthal-Super-High-Temperature-Controller/blob/aea99e4c84bd27a27627e6e728dc2e6159ed56b1/Documentation%20/Safety%20Architecture.md)
@@ -26,3 +32,5 @@ Custom embedded controller for Kanthal Super (Si-Mo) heating elements, designed 
 - `/firmware` – embedded source code
 - `/hardware` – schematics and BOM
 - `/docs` – design documentation
+<br>
+Designing and validating a 131 kW heating controller requires consideration of fault energy, component aging, and safe failure modes typically addressed only in multi-engineer industrial teams
