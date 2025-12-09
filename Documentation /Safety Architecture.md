@@ -4,6 +4,7 @@
 
 This document describes the safety architecture of the Kanthal Super Heating Controller.  
 The controller is a safety-conscious embedded system designed to drive high-power Kanthal Super (Si-Mo) heating elements while preventing catastrophic failure modes (thermal runaway, element/mount explosion, fire, personnel harm). The architecture is intentionally layered: independent hardware protections operate in parallel with firmware diagnostics and supervised state transitions.<br>
+At 131 kW, fault energy is sufficient to cause catastrophic damage. Therefore, the system employs a four-layer defense-in-depth safety architecture combining passive, hardware, and firmware protections.<br>
 
 The implementation is proven in field operation (3+ years continuous runtime). The design philosophy is *fail-safe*, *defensive*, and *redundant where practical* given a single-operator engineering scope..<br>
 
