@@ -24,6 +24,14 @@ The controller is designed for high-power industrial furnaces and has been valid
 - Typical Line Current: 150–200 A (3-phase equivalent)<br>
 - Load Type: Kanthal Super (MoSi2)<br>
 - Operation: Continuous industrial duty<br>
+
+## System Features
+- 131 kW heater control
+- SSR-300 power switching with voltage ramping
+- RMS current feedback with continuous calibration
+- Redundant thermal sensors with safety watchdog
+- Hardware + firmware + safety logic
+  
 ## Documentation
 - 📄 [Technical Overview](https://github.com/sinfu98android/131-kW-Kanthal-Super-Heater-Controller-with-Safety-Architecture/blob/bec7cec90d52a5f2b84a17f64c2f4486e8544c4c/Documentation/Technical%20Overview.md)
 - 🛡️ [Safety Architecture](https://github.com/sinfu98android/Kanthal-Super-High-Temperature-Controller/blob/aea99e4c84bd27a27627e6e728dc2e6159ed56b1/Documentation%20/Safety%20Architecture.md)
