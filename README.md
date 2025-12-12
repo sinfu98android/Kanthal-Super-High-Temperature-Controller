@@ -1,3 +1,5 @@
+![GitHub stars](https://img.shields.io/github/stars/sinfu98android/131-kW-Kanthal-Super-Heater-Controller-with-Safety-Architecture) <br>
+![GitHub forks](https://img.shields.io/github/forks/sinfu98android/131-kW-Kanthal-Super-Heater-Controller-with-Safety-Architecture)
 # Kanthal-Super-High-Temperature-Controller (131 KW)
 
 Custom embedded controller for Kanthal Super (Si-Mo) heating elements, designed for safety-critical industrial furnaces.
